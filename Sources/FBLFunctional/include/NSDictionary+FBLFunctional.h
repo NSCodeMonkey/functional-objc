@@ -18,7 +18,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSDictionary<KeyType, ObjectType>(FBLFunctionalAdditions)
+@interface NSDictionary <KeyType, ObjectType>(FBLFunctionalAdditions)
 
 typedef void (^FBLFunctionalDictionaryEnumeratorBlock)(KeyType key, ObjectType value);
 typedef id __nullable (^FBLFunctionalDictionaryMapperBlock)(KeyType key, ObjectType value);

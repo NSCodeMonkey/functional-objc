@@ -18,7 +18,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSOrderedSet<ObjectType>(FBLFunctionalAdditions)
+@interface NSOrderedSet <ObjectType>(FBLFunctionalAdditions)
 
 typedef void (^FBLFunctionalOrderedSetEnumeratorBlock)(ObjectType value);
 typedef id __nullable (^FBLFunctionalOrderedSetMapperBlock)(ObjectType value);

@@ -18,7 +18,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray<ObjectType>(FBLFunctionalAdditions)
+@interface NSArray <ObjectType>(FBLFunctionalAdditions)
 
 typedef void (^FBLFunctionalArrayEnumeratorBlock)(ObjectType value);
 typedef id __nullable (^FBLFunctionalArrayMapperBlock)(ObjectType value);
