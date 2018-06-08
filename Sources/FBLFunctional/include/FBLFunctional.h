@@ -16,6 +16,6 @@
 
 #import "NSArray+FBLFunctional.h"
 #import "NSDictionary+FBLFunctional.h"
-#import "NSIndexPath+FLBFunctional.h"
+#import "NSIndexPath+FBLFunctional.h"
 #import "NSOrderedSet+FBLFunctional.h"
 #import "NSSet+FBLFunctional.h"

@@ -1,4 +1,4 @@
-// NSIndexPath+FLBFunctional.h
+// NSIndexPath+FBLFunctional.h
 
 #import <Foundation/Foundation.h>
 

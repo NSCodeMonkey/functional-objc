@@ -1,4 +1,4 @@
-// NSIndexPath+FLBFunctional.m
+// NSIndexPath+FBLFunctional.m
 
 #import "NSIndexPath+FBLFunctional.h"
 
