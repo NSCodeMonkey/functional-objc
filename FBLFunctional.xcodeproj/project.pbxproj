@@ -14,6 +14,12 @@
 		032B8169204629650097BF12 /* NSSet+FBLFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* NSSet+FBLFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7263FFA20CA383700FAA431 /* NSIndexPath+FBLFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = B7263FF920CA383700FAA431 /* NSIndexPath+FBLFunctional.m */; };
 		B7263FFD20CA4F3100FAA431 /* NSIndexPath+FBLFunctionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7263FFC20CA4F3100FAA431 /* NSIndexPath+FBLFunctionalTests.m */; };
+		B7551CCF20F74E920092D1F5 /* NSIndexSet+FBLFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = B7551CCE20F74E920092D1F5 /* NSIndexSet+FBLFunctional.m */; };
+		B7551CD120F7537E0092D1F5 /* NSIndexSet+FBLFunctionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7551CD020F7537E0092D1F5 /* NSIndexSet+FBLFunctionalTests.m */; };
+		B7551CD220F754460092D1F5 /* NSIndexPath+FBLFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = B7263FF920CA383700FAA431 /* NSIndexPath+FBLFunctional.m */; };
+		B7551CD320F754460092D1F5 /* NSIndexSet+FBLFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = B7551CCE20F74E920092D1F5 /* NSIndexSet+FBLFunctional.m */; };
+		B7551CD420F754550092D1F5 /* NSIndexPath+FBLFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = B7263FFE20CA4FED00FAA431 /* NSIndexPath+FBLFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7551CD520F754550092D1F5 /* NSIndexSet+FBLFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = B7551CCD20F74E920092D1F5 /* NSIndexSet+FBLFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_38 /* NSArray+FBLFunctionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* NSArray+FBLFunctionalTests.m */; };
 		OBJ_39 /* NSDictionary+FBLFunctionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* NSDictionary+FBLFunctionalTests.m */; };
 		OBJ_40 /* NSOrderedSet+FBLFunctionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* NSOrderedSet+FBLFunctionalTests.m */; };
@@ -38,6 +44,9 @@
 		B7263FF920CA383700FAA431 /* NSIndexPath+FBLFunctional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+FBLFunctional.m"; sourceTree = "<group>"; };
 		B7263FFC20CA4F3100FAA431 /* NSIndexPath+FBLFunctionalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+FBLFunctionalTests.m"; sourceTree = "<group>"; };
 		B7263FFE20CA4FED00FAA431 /* NSIndexPath+FBLFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+FBLFunctional.h"; sourceTree = "<group>"; };
+		B7551CCD20F74E920092D1F5 /* NSIndexSet+FBLFunctional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+FBLFunctional.h"; sourceTree = "<group>"; };
+		B7551CCE20F74E920092D1F5 /* NSIndexSet+FBLFunctional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+FBLFunctional.m"; sourceTree = "<group>"; };
+		B7551CD020F7537E0092D1F5 /* NSIndexSet+FBLFunctionalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+FBLFunctionalTests.m"; sourceTree = "<group>"; };
 		"FBLFunctional::FBLFunctional::Product" /* FBLFunctional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLFunctional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"FBLFunctional::FBLFunctionalTests::Product" /* FBLFunctionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FBLFunctionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* NSObject+FBLFunctional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBLFunctional.m"; sourceTree = "<group>"; };
@@ -79,6 +88,7 @@
 				OBJ_14 /* NSArray+FBLFunctional.h */,
 				OBJ_12 /* NSDictionary+FBLFunctional.h */,
 				B7263FFE20CA4FED00FAA431 /* NSIndexPath+FBLFunctional.h */,
+				B7551CCD20F74E920092D1F5 /* NSIndexSet+FBLFunctional.h */,
 				OBJ_13 /* NSOrderedSet+FBLFunctional.h */,
 				OBJ_16 /* NSSet+FBLFunctional.h */,
 				032B816A2046298C0097BF12 /* framework.modulemap */,
@@ -100,6 +110,7 @@
 				OBJ_20 /* NSArray+FBLFunctionalTests.m */,
 				OBJ_21 /* NSDictionary+FBLFunctionalTests.m */,
 				B7263FFC20CA4F3100FAA431 /* NSIndexPath+FBLFunctionalTests.m */,
+				B7551CD020F7537E0092D1F5 /* NSIndexSet+FBLFunctionalTests.m */,
 				OBJ_22 /* NSOrderedSet+FBLFunctionalTests.m */,
 				OBJ_23 /* NSSet+FBLFunctionalTests.m */,
 			);
@@ -138,6 +149,7 @@
 			children = (
 				OBJ_9 /* NSDictionary+FBLFunctional.m */,
 				B7263FF920CA383700FAA431 /* NSIndexPath+FBLFunctional.m */,
+				B7551CCE20F74E920092D1F5 /* NSIndexSet+FBLFunctional.m */,
 				OBJ_10 /* NSObject+FBLFunctional.m */,
 				OBJ_11 /* include */,
 			);
@@ -157,6 +169,8 @@
 				032B8165204629650097BF12 /* NSDictionary+FBLFunctional.h in Headers */,
 				032B8167204629650097BF12 /* NSArray+FBLFunctional.h in Headers */,
 				032B8169204629650097BF12 /* NSSet+FBLFunctional.h in Headers */,
+				B7551CD420F754550092D1F5 /* NSIndexPath+FBLFunctional.h in Headers */,
+				B7551CD520F754550092D1F5 /* NSIndexSet+FBLFunctional.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				B7551CD120F7537E0092D1F5 /* NSIndexSet+FBLFunctionalTests.m in Sources */,
 				B7263FFA20CA383700FAA431 /* NSIndexPath+FBLFunctional.m in Sources */,
 				OBJ_38 /* NSArray+FBLFunctionalTests.m in Sources */,
 				B7263FFD20CA4F3100FAA431 /* NSIndexPath+FBLFunctionalTests.m in Sources */,
 				OBJ_39 /* NSDictionary+FBLFunctionalTests.m in Sources */,
+				B7551CCF20F74E920092D1F5 /* NSIndexSet+FBLFunctional.m in Sources */,
 				OBJ_40 /* NSOrderedSet+FBLFunctionalTests.m in Sources */,
 				OBJ_41 /* NSSet+FBLFunctionalTests.m in Sources */,
 			);
@@ -241,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				B7551CD220F754460092D1F5 /* NSIndexPath+FBLFunctional.m in Sources */,
+				B7551CD320F754460092D1F5 /* NSIndexSet+FBLFunctional.m in Sources */,
 				OBJ_50 /* NSDictionary+FBLFunctional.m in Sources */,
 				OBJ_51 /* NSObject+FBLFunctional.m in Sources */,
 			);

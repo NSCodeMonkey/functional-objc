@@ -7,7 +7,7 @@ static NSArray *FBLIndexPathMap(NSIndexPath *indexPath, FBLFunctionalIndexPathMa
   NSUInteger length = indexPath.length;
   for (NSUInteger i = 0; i < length; i++) {
     id mapped = mapper([indexPath indexAtPosition:i]);
-    [result addObject:mapped];
+    [result addObject:mapped ?: [NSNull null]];
   }
   return result;
 }
